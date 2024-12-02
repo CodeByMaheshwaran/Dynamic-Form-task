@@ -1,4 +1,4 @@
-// src/api.ts
+
 import { FormResponse } from './types';
 
 export const getFormData = (formType: string): Promise<FormResponse> => {
