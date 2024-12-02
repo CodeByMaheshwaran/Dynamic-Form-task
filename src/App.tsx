@@ -1,6 +1,8 @@
 // src/App.tsx
 import React from 'react';
 import DynamicForm from './components/DynamicForm';
+import 'animate.css';
+
 
 const App = () => {
   return (

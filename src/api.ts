@@ -17,7 +17,7 @@ export const getFormData = (formType: string): Promise<FormResponse> => {
       fields: [
         { name: 'street', type: 'text', label: 'Street', required: true },
         { name: 'city', type: 'text', label: 'City', required: true },
-        { name: 'state', type: 'dropdown', label: 'State', required: true, options: ['California', 'Texas', 'New York'] },
+        { name: 'state', type: 'dropdown', label: 'State', required: true, options: ['--Select State--','California', 'Texas', 'New York'] },
         { name: 'zipCode', type: 'text', label: 'Zip Code', required: false },
       ],
     });
